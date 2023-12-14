@@ -1,0 +1,56 @@
+/* Style de base pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #000000;
+ }
+ /* En-tête */
+ header {
+    background: #000000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+ }
+ header nav ul {
+    list-style: none;
+    padding: 0;
+ }
+ header nav ul li {
+    display: inline;
+    margin: 0 20px;
+ }
+ header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+ }
+ /* Logo */
+ #logo {
+    margin-top: 15px;
+ }
+ #logo img {
+    width: 150px; /* Vous pouvez ajuster la taille selon 
+    
+le logo */
+ }
+ /* Contenu principal */
+ main {
+    padding: 20px;
+    min-height: 400px; /* Hauteur minimale */
+ }
+ /* Pied de page */
+ footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #000000;
+    color: #fff;
+ }
+ /* Responsive design pour les petits écrans */
+ @media screen and (max-width: 600px) {
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+ }
